@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media screen {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+body {
+  width: 85%;
+  margin: 0 70px 0 80px;
+  background-color: black;
+  color: white;
+}
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0px 90px 0px;
+}
+
+.my-nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 25px;
+  padding-bottom: 1px;
+}
+.my-nav ul li {
+  list-style: none;
+  font-size: 17px;
+}
+ul a {
+  text-decoration: none;
+  color: white;
+}
+ul a:hover {
+  font-size: 18px;
+  color: rgb(174, 235, 237);
+  text-decoration: underline;
+}
+h1 {
+  font-size: 33px;
+}
+.color {
+  color: aqua;
+  filter: blur(0.5px);
+  overflow: hidden;
+}
+.bio {
+  width: 65%;
+  font-size: 16px;
+  gap: 40px;
+}
+
+.bio h2 {
+  font-size: 50px;
+  margin-bottom: 12px;
+}
+.bio h3 {
+  font-size: 20px;
+  margin-bottom: 11px;
+}
+.bio input {
+  border-radius: 50px;
+  padding: 6px;
+  margin-top: 12px;
+}
+.bio input:hover {
+  cursor: pointer;
+}
+.hire {
+  background-color: aqua;
+  border-color: black;
+}
+.cv {
+  background-color: black;
+  color: aqua;
+  border-color: aqua;
+}
+.hire:hover {
+  background-color: rgb(85, 222, 222);
+}
+.cv:hover {
+  background-color: rgb(85, 222, 222);
+  color: black;
+}
+.services {
+  margin-top: 100px;
+}
+.services h2 {
+  text-align: center;
+  font-size: 40px;
+}
+.service-flex {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.service-flex h3 {
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+.service-flex div {
+  width: 30%;
+  background-color: rgb(4, 252, 252);
+  color: black;
+  text-align: center;
+  border: white 1px solid;
+  padding: 30px;
+  border-radius: 20px;
+}
+.service-flex div:hover {
+  background-color: rgb(161, 245, 245);
+  width: 33%;
+}
+address {
+  margin-top: 70px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.contact {
+  width: 60%;
+
+  box-shadow: 0 0 20px 0 aqua;
+  padding: 20px 0px 20px 0px;
+}
+.contact h2 {
+  margin-bottom: 15px;
+  color: aqua;
+}
+.contact p {
+  margin-bottom: 10px;
+}
+.contact span {
+  color: aqua;
+}
+.navbar {
+  background-color: black;
+}
+.display {
+  display: none;
+}
+#nav {
+  padding: 0;
+}
+.container-fluid {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+.navbar-toggler {
+  padding: 0;
+  width: 10%;
+  background-color: rgb(135, 228, 228);
+}
+.full-name {
+  color: white;
+  font-size: 25px;
+}
+.name {
+  color: aqua;
+  filter: blur(0.5px);
+  font-size: 24px;
+}
+
+.white {
+  color: white;
+}
+.white:hover {
+  text-decoration: underline;
+  color: aqua;
+}
+@media (max-width: 600px) {
+  body {
+    width: 97%;
+    margin: 0px 0px 0px 10px;
+  }
+  header {
+    display: none;
+  }
+  .display {
+    display: unset;
+  }
+  .bio h2 {
+    font-size: 23px;
+    margin-top: 70px;
+  }
+  .bio {
+    width: 85%;
+    font-size: 14px;
+  }
+  .bio h3 {
+    font-size: 18px;
+  }
+  .services h2 {
+    font-size: 30px;
+  }
+  .service-flex {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+  }
+  .service-flex div {
+    width: 90%;
+  }
+  .service-flex div:hover {
+    width: 86%;
+  }
+  .contact h2 {
+    font-size: 22px;
+  }
+  .contact p {
+    font-size: 13px;
+  }
+}
