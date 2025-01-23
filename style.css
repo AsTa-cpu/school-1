@@ -63,6 +63,15 @@ h1 {
   font-size: 20px;
   margin-bottom: 11px;
 }
+img {
+  background-color: black;
+  border-radius: 30px;
+  width: 6%;
+  height: 6%;
+}
+img:hover {
+  background-color: aqua;
+}
 .bio input {
   border-radius: 50px;
   padding: 6px;
@@ -217,5 +226,9 @@ address {
   }
   .contact p {
     font-size: 13px;
+  }
+  img {
+    width: 8%;
+    height: 6%;
   }
 }
