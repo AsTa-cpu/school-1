@@ -21,7 +21,6 @@ header {
   align-items: center;
   margin: 20px 0px 90px 0px;
 }
-
 .my-nav ul {
   display: flex;
   justify-content: space-evenly;
@@ -125,6 +124,14 @@ img:hover {
   background-color: rgb(161, 245, 245);
   width: 33%;
 }
+.Projects {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+}
+.Projects button {
+  width: 150%;
+}
 address {
   margin-top: 70px;
   margin-bottom: 100px;
@@ -176,7 +183,18 @@ address {
   filter: blur(0.5px);
   font-size: 24px;
 }
-
+.dropdown a {
+  color: white;
+}
+.dropdown ul {
+  background-color: black;
+}
+.dropdown ul a:hover {
+  background-color: black;
+}
+.dropdown a:hover {
+  color: aqua;
+}
 .white {
   color: white;
 }
@@ -230,5 +248,8 @@ address {
   img {
     width: 8%;
     height: 6%;
+  }
+  .Projects {
+    display: none;
   }
 }
